@@ -10,8 +10,9 @@ public class UserController {
     public String SignupForm(){
         return "signup.html";
     }
+    /*
     @PostMapping("/user")
     Public String homePage(@ModelAttribute User user){
         return "redirect:/home.html";
-    }
+    }*/
 }
